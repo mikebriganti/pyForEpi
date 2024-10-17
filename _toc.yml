@@ -1,10 +1,32 @@
 # Table of contents
-# Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
 root: intro
-chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
-- file: cleaning_data
+parts:
+  - caption: Python Basics
+    chapters:
+    - file: why_python
+    - file: python_basics
+    - file: packages
+  - caption: Data Wrangling
+    chapters:
+    - file: reading_data
+    - file: summarize_data
+    - file: manipulate_data
+    - file: dates
+    - file: joining_data
+    - file: duplicate_data
+  - caption: Data Analysis
+    chapters:
+    - file: basic_statistics
+    - file: survival
+  - caption: Data Visualization
+    chapters:
+    - file: basic_tables
+    - file: basic_plots
+  - caption: Data Reports
+    chapters:
+    - file: jupyter
+  - caption: Miscellaneous Topics
+    chapters:
+    - file: git

@@ -1,19 +1,20 @@
-# Welcome to your Jupyter Book
+# Introduction
 
-This is a small sample book to give you a feel for how book content is
-structured.
-It shows off a few of the major file types, as well as some sample content.
-It does not go in-depth into any particular topic - check out [the Jupyter Book documentation](https://jupyterbook.org) for more information.
-
-Check out the content pages bundled with this sample book to see more.
-
-```{tableofcontents}
+```{image} ../images/virus_image.jpg
+:alt: Stock epidemiology image
+:class: bg-primary mb-1
+:width: 400px
+:align: center
 ```
 
-```
-Test Note!!!
-```
+## Purpose
 
-:::{note}
-testing
-:::
+The purpose of this book is to provide individuals in the public health field with a step-by-step guide that can be followed to conduct basic epidemiology analyses using Python. You will be provided with two synthetic datasets that can be used for an example project which includes wrangling, data analysis, and data visualization. For those with exposure to python, we hope this book will serve as valuable reference.
+
+## How to Use
+
+Please read through this guide section-by-section and follow along with the provided steps. You will be provided with two example datasets to use and a few examples to work through.
+
+## How to Get Involved
+
+If you would like to get involved or suggest content updates/improvements, please contact us at [michaelrbriganti@gmail.com](michaelrbriganti@gmail.com)!
