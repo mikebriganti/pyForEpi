@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>why py &#8212; My sample book</title>
+    <title>Why use Python? &#8212; Python for Epi</title>
   
   
   
@@ -61,7 +61,7 @@
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Py Basics" href="python_basics.html" />
-    <link rel="prev" title="Welcome to your Jupyter Book" href="intro.html" />
+    <link rel="prev" title="Introduction" href="intro.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -153,8 +153,8 @@
       
     
     
-    <img src="_static/logo.png" class="logo__image only-light" alt="My sample book - Home"/>
-    <script>document.write(`<img src="_static/logo.png" class="logo__image only-dark" alt="My sample book - Home"/>`);</script>
+    <img src="_static/logo.png" class="logo__image only-light" alt="Python for Epi - Home"/>
+    <script>document.write(`<img src="_static/logo.png" class="logo__image only-dark" alt="Python for Epi - Home"/>`);</script>
   
   
 </a></div>
@@ -175,25 +175,44 @@
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
                 <a class="reference internal" href="intro.html">
-                    Welcome to your Jupyter Book
+                    Introduction
                 </a>
             </li>
         </ul>
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">Python Basics</span></p>
 <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">why py</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Why use Python?</a></li>
+
+
 <li class="toctree-l1"><a class="reference internal" href="python_basics.html">Py Basics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="packages.html">Py packages</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Data Wrangling</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="reading_data.html">reading data</a></li>
-<li class="toctree-l1"><a class="reference internal" href="cleaning_data.html">Cleaning Data</a></li>
 <li class="toctree-l1"><a class="reference internal" href="summarize_data.html">summarize data</a></li>
 <li class="toctree-l1"><a class="reference internal" href="manipulate_data.html">manipulate data</a></li>
 <li class="toctree-l1"><a class="reference internal" href="dates.html">dates</a></li>
 <li class="toctree-l1"><a class="reference internal" href="joining_data.html">joining data</a></li>
 <li class="toctree-l1"><a class="reference internal" href="duplicate_data.html">duplicate</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Data Analysis</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="basic_statistics.html">basic statistics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="survival.html">survival</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Data Visualization</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="basic_tables.html">Basic Tables</a></li>
+<li class="toctree-l1"><a class="reference internal" href="basic_plots.html">Basic Plots</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Data Reports</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="jupyter.html">Shareable Notebooks</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Miscellaneous Topics</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="git.html">Version Control</a></li>
 </ul>
 
     </div>
@@ -379,7 +398,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>why py</h1>
+    <h1>Why use Python?</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -389,8 +408,11 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sub-title-here">Sub Title Here</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Why use Python?</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#why-are-libraries-important">Why are libraries important</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#why-python-over-r">Why Python over R?</a></li>
 </ul>
+
             </nav>
         </div>
     </div>
@@ -401,13 +423,35 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="why-py">
-<h1>why py<a class="headerlink" href="#why-py" title="Link to this heading">#</a></h1>
-<p>This section will tell you how to clean data.</p>
-<section id="sub-title-here">
-<span id="section-label"></span><h2>Sub Title Here<a class="headerlink" href="#sub-title-here" title="Link to this heading">#</a></h2>
-<p>This is a reference to <a class="reference internal" href="#section-label"><span class="std std-ref">Sub Title Here</span></a></p>
+  <section id="why-use-python">
+<h1>Why use Python?<a class="headerlink" href="#why-use-python" title="Link to this heading">#</a></h1>
+<p>Python is a powerful, open-source programming language free for all to use. Python excels at data analysis due to it’s expansive ecosystem of libraries (and the communities surrounding them) where thousands of individuals across the globe are pushing boundaries for data wrangling, data analysis, and data visuazliation.</p>
+<p>Python is already widely adopted across many fields, making it easier for epidemiologists to collaborate with professionals in other fields. With the growing importance for epidemiologists to ingregrate various data sources (i.e. real-world data like Electronic health records and insurance claims, environmental data, actigraphy data, digitial health data, genetic data, etc.) Python provides the ability to work with and process these data types seamlesslesy regardless of the input format, file size, or overall data complexity.</p>
 </section>
+<section id="why-are-libraries-important">
+<h1>Why are libraries important<a class="headerlink" href="#why-are-libraries-important" title="Link to this heading">#</a></h1>
+<p>Libraries are groups of code that are developed by others that we can utilize for our projects. In this book we will be focusing on the <strong>Polars</strong> library which will make it easier for us to clean up our datasets. In epidemiology research we are often working with messy, unclean datasets that are full of missing values, incorrect values, duplicates, and other general outliers. We can take full advantage of Python’s power and leverage libraries like Polars to process and prepare our data with ease. Even if our datasets are massive in size we can work with the data efficiently.</p>
+<p>Other libraries can be applied to build predictive models, which is of growing importance in the field of public health to identify emerging trend, assess risk factors, or make predictions among a sample. Python will allow you to leverare cutting-edge methodology in your research.</p>
+<p>Python offers much in terms of visualization too, allowing epidemiologists to create highly customziable (and even interactive) plots. As you know, clear and concise visuals are crucial for epidemiology research and Python will enable you to produce any graphic you need.</p>
+<p>Finally, Python libraries offer a tremendous amount of tools you can leverage for other data types you might have access to including imaging, biomarker, and actigraphy data. Without python libraries, our jobs would simply be more difficult.</p>
+</section>
+<section id="why-python-over-r">
+<h1>Why Python over R?<a class="headerlink" href="#why-python-over-r" title="Link to this heading">#</a></h1>
+<p>We love R just as much as Python! However, your project and collaborative need can influence your choice of a packaging language.</p>
+<p>Some considerations to help you choose Python:</p>
+<ul class="simple">
+<li><p>Python is a general purpose programming language, typically used for a wider ranges of tasks over R. This makes Python a natural choice to expanding your programming skillset overall.</p></li>
+<li><p>Python offers libraries that often have more advanced capabilities over the R equivalent packages, including in domains like web-scraping, imaging analysis, workflow automations, working with web frameworks, working with the cloud, and working with particular databases.</p></li>
+<li><p>If working with massive datasets, or diverse data types, Python may offer more flexibility to seamlessly and efficiently work with your data.</p></li>
+<li><p>Since Python is used in more fields overall compared to R, depending on where you or your teammates are coming from, you may have more comfort using Python over R.</p></li>
+</ul>
+<div class="tip admonition">
+<p class="admonition-title">Some existing resources to help you with R:</p>
+<ul class="simple">
+<li><p>(<a class="reference external" href="https://www.epirhandbook.com/en/">https://www.epirhandbook.com/en/</a>)</p></li>
+<li><p>(<a class="reference external" href="https://www.r4epi.com/">https://www.r4epi.com/</a>)</p></li>
+</ul>
+</div>
 </section>
 
     <script type="text/x-thebe-config">
@@ -446,7 +490,7 @@ document.write(`
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Welcome to your Jupyter Book</p>
+        <p class="prev-next-title">Introduction</p>
       </div>
     </a>
     <a class="right-next"
@@ -474,8 +518,11 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sub-title-here">Sub Title Here</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Why use Python?</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#why-are-libraries-important">Why are libraries important</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#why-python-over-r">Why Python over R?</a></li>
 </ul>
+
   </nav></div>
 
 </div></div>
@@ -489,7 +536,7 @@ document.write(`
   <div class="footer-item">
     
 <p class="component-author">
-By The Jupyter Book Community
+By Mike Briganti
 </p>
 
   </div>
